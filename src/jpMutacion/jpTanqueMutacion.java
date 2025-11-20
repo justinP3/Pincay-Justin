@@ -13,14 +13,14 @@ public class jpTanqueMutacion implements jpIAMutacion {
                     System.out.print(
                             "\rMutacion en proceso: ------   " + jpContador + " de " + (jpTotal) + "(mSv)");
                     jpContador += jpAumento;
-                    Thread.sleep(3);
+                    Thread.sleep(333);
                 }
                 if (jpContador <= jpTotal) {
                     while (jpContador <= jpTotal) {
                         System.out.print(
                                 "\rMutacion en proceso: ------   " + jpContador + " de " + (jpTotal) + "(mSv)");
                         jpContador += 1;
-                        Thread.sleep(3);
+                        Thread.sleep(333);
                     }
                 }
                 System.out.println("\n----------------------------------------------------------");
