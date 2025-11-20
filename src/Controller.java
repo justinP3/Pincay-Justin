@@ -45,7 +45,7 @@ public class Controller {
                     }
                     System.out.print("\r" + jpSimbolos[jpC]);
                     System.out.print(((e + 1) * 10) + "%");
-                    Thread.sleep(1);
+                    Thread.sleep(333);
                     jpC++;
                 }
             } catch (InterruptedException e) {
@@ -81,7 +81,7 @@ public class Controller {
                     }
                     System.out.print("\r" + jpSimbolos[jpC]);
                     System.out.print(((e + 1) * 10) + "%");
-                    Thread.sleep(1);
+                    Thread.sleep(333);
                     jpC++;
                 }
             } catch (InterruptedException e) {
